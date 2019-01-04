@@ -20,8 +20,8 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <p className={styles.test}>
             Edit <code>src/App.js</code> and save to reload.
-		      </p>
-		    <p>Hello, World!</p>
+          </p>
+	  <p>Hello, World!</p>
           <a
             className="App-link"
             href="https://reactjs.org"
