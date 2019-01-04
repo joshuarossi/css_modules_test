@@ -4,7 +4,7 @@ This is an example of one possible theming implementation
 
 This is an example of using CSS Modules to allow for custom themes to override base styles
 
-## base.module.css
+## styles/base.module.css
 
 ```css
 .test {
@@ -18,7 +18,7 @@ p {
 }
 ```
 
-## custom.module.css
+## styles/custom.module.css
 
 ```css
 .test {
