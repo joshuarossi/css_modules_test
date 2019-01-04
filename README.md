@@ -4,6 +4,44 @@ This is an example of one possible theming implementation
 
 This is an example of using CSS Modules to allow for custom themes to override base styles
 
+## base.module.css
+
+```css
+.test {
+  color: red;
+  background-color: blue;
+  border: 1px solid green;
+}
+
+p {
+  color: blue;
+}
+```
+
+## custom.module.css
+
+```css
+.test {
+  color: orange;
+  background-color: blue;
+  border: 1px solid white;
+}
+```
+
+## styles/index.js
+
+```js
+import base from './base.module.css';
+import custom from './custom.module.css';
+
+console.log(base);
+console.log(custom);
+const styles = { ...base, ...custom };
+console.log(styles);
+
+export default styles;
+```
+
 ## App.js
 
 ```jsx
@@ -37,30 +75,6 @@ class App extends Component {
 }
 
 export default App;
-```
-
-## base.module.css
-
-```css
-.test {
-  color: red;
-  background-color: blue;
-  border: 1px solid green;
-}
-
-p {
-  color: blue;
-}
-```
-
-## custom.module.css
-
-```css
-.test {
-  color: orange;
-  background-color: blue;
-  border: 1px solid white;
-}
 ```
 
 ![Screenshot](theme_example.png)
