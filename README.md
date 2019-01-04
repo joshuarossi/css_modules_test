@@ -60,5 +60,4 @@ border: 1px solid white;
 }
 ```
 
-
-  
+![Screenshot](theme_example.png)
