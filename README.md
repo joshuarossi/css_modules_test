@@ -49,7 +49,6 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import styles from './styles';
-import { test } from './styles/base.module.css';
 
 class App extends Component {
   render() {
