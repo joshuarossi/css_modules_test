@@ -49,10 +49,6 @@ This is an example of using CSS Modules to allow for custom themes to override b
 p {
   color: blue;
 }
-
-.experiment {
-  color: pink;
-}
 ```
 
 ## styles/custom.module.css
